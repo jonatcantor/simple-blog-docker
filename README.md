@@ -32,6 +32,28 @@ README.md
    ```bash
    git clone https://github.com/jonatcantor/simple-blog-docker.git
    ```
+2. Variables de entorno. Crear un archivo .env con las siguientes variables:
+    ```bash
+    # Puertos host:contenedor
+    FRONTEND_PORT=8080
+    BACKEND_PORT=5000
+    POSTGRES_PORT=5432
+    
+    # Variables base de datos
+    POSTGRES_USER=bloguser
+    POSTGRES_PASSWORD=blogpass
+    POSTGRES_DB=blogdb
+    
+    # Configuración backend
+    DB_HOST=db
+    DB_PORT=5432
+    DB_USER=${POSTGRES_USER}
+    DB_PASSWORD=${POSTGRES_PASSWORD}
+    DB_NAME=${POSTGRES_DB}
+    
+    # Entorno (development | production)
+    NODE_ENV=production
+   ```
 3. Construir y levantar:
    ```bash
    docker compose up --build
