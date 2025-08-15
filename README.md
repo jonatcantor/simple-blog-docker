@@ -30,7 +30,8 @@ README.md
 ## Usar
 1. Clonar el repositorio.
    ```bash
-   git clone https://github.com/jonatcantor/simple-blog-docker.git```
+   git clone https://github.com/jonatcantor/simple-blog-docker.git
+   ```
 3. Construir y levantar:
    ```bash
    docker-compose up --build
