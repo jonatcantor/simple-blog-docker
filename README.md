@@ -34,7 +34,7 @@ README.md
    ```
 3. Construir y levantar:
    ```bash
-   docker-compose up --build
+   docker compose up --build
    ```
 4. Abrir en el navegador:
    - Frontend: http://localhost:8080
