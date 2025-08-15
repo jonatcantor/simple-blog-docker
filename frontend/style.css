@@ -1,0 +1,7 @@
+body { font-family: Arial, sans-serif; background:#f5f7fb; color:#222; padding:20px;}
+.container { max-width:800px; margin:0 auto; background:white; padding:20px; border-radius:8px; box-shadow:0 2px 8px rgba(0,0,0,0.08);}
+input, textarea { width:100%; padding:8px; margin:6px 0; border:1px solid #ddd; border-radius:4px; }
+button { padding:10px 14px; border:none; background:#2b8aee; color:white; border-radius:6px; cursor:pointer; margin: 4px; }
+.post { padding:12px; border-bottom:1px solid #eee; }
+.post h3 { margin:0 0 6px 0; }
+.meta { color:#666; font-size:12px; margin-bottom:6px; }
