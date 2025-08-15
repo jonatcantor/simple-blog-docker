@@ -29,11 +29,13 @@ README.md
 
 ## Usar
 1. Clonar el repositorio.
-2. Construir y levantar:
+   ```bash
+   git clone https://github.com/jonatcantor/simple-blog-docker.git```
+3. Construir y levantar:
    ```bash
    docker-compose up --build
    ```
-3. Abrir en el navegador:
+4. Abrir en el navegador:
    - Frontend: http://localhost:8080
    - API (opcional, para pruebas): http://localhost:5000
 
